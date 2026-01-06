@@ -30,7 +30,7 @@ def guess_the_word():
 
             for i in range(len(generate_word)): #Check if the guessed letter is in the word or not
                 if generate_word[i] == guess_a_letter:
-                    display_word[i] = guess_a_letter #UUpdate the display to show the letters which were guessed correctly
+                    display_word[i] = guess_a_letter #Update the display to show the letters which were guessed correctly
 
         else:
             number_of_turns -= 1
